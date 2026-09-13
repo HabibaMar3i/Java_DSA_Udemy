@@ -6,6 +6,7 @@ public class BigO {
     }
 
     public static void main(String[] args) {
-        printNums(10);
+        printNums(10); // O(n) gave 9 numbers printed 9 
+
     }
 }
