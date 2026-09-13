@@ -16,6 +16,18 @@ public class BigO {
     //     }
     // }
 
+    // Important interview question: O(a+b)
+    // public static void printNums(int a, int b){
+    //     O(a)
+    //     for(int i = 0; i < a; i++){
+    //         System.out.println(i);
+    //     }
+    //     O(b)
+    //     for(int i = 0; i < b; i++){
+    //         System.out.println(i);
+    //     }
+    // }
+
     // O(n*n) -> O(n*2)
     // public static void printNums(int n){
     //     for(int i = 0; i < n; i++){
@@ -47,6 +59,8 @@ public class BigO {
     // O(log n)
     // [1, 2 ,3 ,4, 5, 6, 7, 8] which is divide and conquer 
     // How many times to divide this into 2 parts to reach 1 efficient but not the best
+
+    // Array lists remove or add from the end is O(1) but from any other index it 0(n) because reindexing will take place
 
     public static void main(String[] args) {
         // printNums(10); // O(n) gave 9 numbers printed 9 
