@@ -37,17 +37,23 @@ public class BigO {
     //     }
     // }
 
-    public static void printNums(int n){
-        System.out.println(n+n); // one step O(1)
-        System.out.println(n+n+n); // two steps O(2)
-        // Both are O(1) which is most efficient
-    }
+    // O(1)
+    // public static void printNums(int n){
+    //     System.out.println(n+n); // one step O(1)
+    //     System.out.println(n+n+n); // two steps O(2)
+    //     // Both are O(1) which is most efficient
+    // }
+
+    // O(log n)
+    // [1, 2 ,3 ,4, 5, 6, 7, 8] which is divide and conquer 
+    // How many times to divide this into 2 parts to reach 1 efficient but not the best
 
     public static void main(String[] args) {
         // printNums(10); // O(n) gave 9 numbers printed 9 
         // printNums(10); // O(n) gave 9 numbers printed same twice
         // printNums(10); // O(n*2) -> 9*9 
         // printNums(10); // O(n*2 + n) -> ((9*9) + 9)
-        printNums(10); // O(1)
+        // printNums(10); // O(1)
+
     }
 }
